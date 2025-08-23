@@ -1,0 +1,10 @@
+subway = ["A", "B", "C", "D", "E"]
+print("Subway lines:", subway)
+subway.append("F")
+print("Updated subway lines:", subway)
+subway.insert(2, "G")
+print("Subway lines after insertion:", subway)
+subway.remove("B")
+print("Subway lines after removing 'B':", subway)
+subway.pop()
+print("Subway lines after popping the last element:", subway)
